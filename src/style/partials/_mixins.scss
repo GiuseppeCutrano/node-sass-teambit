@@ -1,0 +1,17 @@
+// stili bottoni
+@mixin general_btn {
+    border: 1px solid $btn_color;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: $font_size;
+    font-size: $font_size_small;
+    transition: 0.3s ease;
+  }
+  
+  @mixin general_btn_img {
+    width: 18px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+  }
+
+  

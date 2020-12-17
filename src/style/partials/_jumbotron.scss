@@ -1,0 +1,26 @@
+
+#jumbotron {
+    
+    .sign-with {
+        padding: 55px 0 30px;
+    }  
+  
+    .btn {
+        @import 'partials/_mixins';
+        @include general_btn;
+        color: $btn_color;
+
+        &:hover {
+          background-color: $btn_color;
+          color: white;
+        }
+
+        img {
+          @include general_btn_img;
+        }
+    }
+        
+          
+    
+    
+}
