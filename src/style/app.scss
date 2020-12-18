@@ -1,8 +1,12 @@
-@import 'partials/_commons';
-@import 'partials/_variables';
-@import 'partials/_header';
-@import 'partials/_mixins';
-@import 'partials/_jumbotron';
+@use 'partials/commons';
+@use 'partials/mixins';
+@use 'partials/header';
+@use 'partials/main';
+@use 'partials/jumbotron';
+
+
+
+
 
 
 

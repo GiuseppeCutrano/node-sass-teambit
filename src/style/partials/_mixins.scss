@@ -1,10 +1,12 @@
+@use 'variables';
 // stili bottoni
+
 @mixin general_btn {
-    border: 1px solid $btn_color;
+    border: 1px solid variables.$btn_color;
     border-radius: 5px;
     padding: 10px;
-    font-size: $font_size;
-    font-size: $font_size_small;
+    font-size: variables.$font_size;
+    font-size: variables.$font_size_small;
     
   }
   
@@ -13,5 +15,10 @@
     vertical-align: text-bottom;
     margin-right: 5px;
   }
-
+  
+  @mixin flex_between {
+    display: flex;
+    justify-content: space-between;
+  }
+  // Background
   

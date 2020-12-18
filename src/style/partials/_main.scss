@@ -1,0 +1,48 @@
+@use 'variables';
+section {
+    padding: variables.$padding_section;
+  }
+  
+  .title {
+  
+    h2 {
+      font-size: 45px;
+      line-height: 1.5;
+    }
+    p {
+      padding: 50px 0 40px;
+    }
+    a {
+      color: variables.$color_font_page;
+      text-decoration: none;
+      display: block;
+  
+      &:hover {
+        color: variables.$btn_color;
+        text-decoration: underline;
+      }
+    }
+  
+    .sign-with {
+      padding: 55px 0 30px;
+    }
+  
+    .btn {
+      @import'partials/mixins';
+      @include general_btn;
+      background-color: variables.$btn_color;
+      color: variables.$primary_color;
+  
+      &:hover {
+        background-color: variables.$primary_color;
+        color: variables.$btn_color;
+      }
+  
+      img {
+        
+        @include general_btn_img;
+      }
+    }
+  }
+
+  

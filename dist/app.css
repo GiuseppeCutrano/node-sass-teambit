@@ -56,27 +56,103 @@ header nav .list-menu .btn-nav img {
   margin-right: 5px;
 }
 
-#jumbotron .sign-with {
+section {
+  padding: 70px 0;
+}
+
+.title h2 {
+  font-size: 45px;
+  line-height: 1.5;
+}
+
+.title p {
+  padding: 50px 0 40px;
+}
+
+.title a {
+  color: #5d422f;
+  text-decoration: none;
+  display: block;
+}
+
+.title a:hover {
+  color: #1a4892;
+  text-decoration: underline;
+}
+
+.title .sign-with {
   padding: 55px 0 30px;
 }
 
-#jumbotron .btn {
+.title .btn {
   border: 1px solid #1a4892;
   border-radius: 5px;
   padding: 10px;
   font-size: 14px;
   font-size: 14px;
-  color: #1a4892;
-}
-
-#jumbotron .btn:hover {
   background-color: #1a4892;
   color: white;
 }
 
-#jumbotron .btn img {
+.title .btn:hover {
+  background-color: white;
+  color: #1a4892;
+}
+
+.title .btn img {
   width: 18px;
   vertical-align: text-bottom;
   margin-right: 5px;
 }
+
+#jumbotron {
+  background-color: white;
+}
+
+#jumbotron .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#jumbotron .title {
+  width: 50%;
+}
+
+#jumbotron .title p {
+  padding: 0;
+}
+
+.background {
+  width: 50%;
+}
+
+.background img {
+  width: 100%;
+}
+
+/* #jumbotron {
+
+    .sign-with {
+        padding: 55px 0 30px;
+    }  
+
+    .btn {
+        @import 'partials/_mixins';
+        @include general_btn;
+        color: $btn_color;
+
+        &:hover {
+          background-color: $btn_color;
+          color: white;
+        }
+
+        img {
+          @include general_btn_img;
+        }
+    }
+
+
+
+
+} */
 

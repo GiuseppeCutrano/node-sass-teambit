@@ -1,14 +1,15 @@
+@use 'variables';
 /*  HEADER */
 header {
   /* NAVBAR */
   nav {
     height: 70px;
-    border-bottom: 1px solid $color_font_page;
+    border-bottom: 1px solid variables.$color_font_page;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: $font_size;
-    font-size: $font_size_small;
+    font-size: variables.$font_size;
+    font-size: variables.$font_size_small;
 
     .list-menu {
       li {
@@ -21,10 +22,10 @@ header {
       .btn-nav {
         @import 'partials/_mixins';
         @include general_btn;
-        color: $btn_color;
+        color: variables.$btn_color;
 
         &:hover {
-          background-color: $btn_color;
+          background-color: variables.$btn_color;;
           color: white;
         }
 

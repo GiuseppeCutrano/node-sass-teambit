@@ -1,5 +1,41 @@
-
+@use 'variables';
 #jumbotron {
+    background-color: variables.$primary_color;
+  
+    .container {
+        
+        @import 'partials/mixins';
+        @include flex_between;
+
+    
+     
+    }
+    
+  
+    // Title
+    .title {
+      width: 50%;
+  
+      p {
+        padding: 0;
+      }
+    }
+    
+    
+  }
+  .background {
+   
+    width: 50%;
+    img{
+        width: 100%;
+        
+    
+    }
+    
+
+  }
+
+/* #jumbotron {
     
     .sign-with {
         padding: 55px 0 30px;
@@ -23,4 +59,4 @@
           
     
     
-}
+} */
