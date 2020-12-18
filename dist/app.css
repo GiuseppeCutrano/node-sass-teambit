@@ -222,7 +222,7 @@ section {
 }
 
 #solutions .screen img {
-  height: 380px;
+  width: 100%;
 }
 
 #solutions .title {
