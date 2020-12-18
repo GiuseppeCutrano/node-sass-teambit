@@ -12,6 +12,10 @@ section {
     }
     p {
       padding: 50px 0 40px;
+      color:variables.$sec_color_font_page
+    }
+    span{
+      color:variables.$sec_color_font_page
     }
     a {
       color: variables.$color_font_page;

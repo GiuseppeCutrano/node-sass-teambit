@@ -20,5 +20,22 @@
     display: flex;
     justify-content: space-between;
   }
-  // Background
+  @mixin flex_column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @mixin small_box {
+    font-size: variables.$font_size_small;
+    width: calc(100% / 3);
+    height: 180px;
+    padding-top: 40px;
+  }
+  
+  @mixin small_box_img {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  
+  
   

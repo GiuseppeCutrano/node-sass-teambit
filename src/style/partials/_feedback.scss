@@ -1,0 +1,29 @@
+#solutions {
+    
+        .reverse{
+            flex-direction: row-reverse;
+        }
+    
+       .feedback_img{
+           display: flex;
+       }
+  
+        
+  
+        .screen {
+            width: 50%;
+  
+          img {
+            height: 380px;
+          }
+        }
+  
+        .title {
+          width: 50%;
+  
+          img {
+            
+            width: 50%;
+          }
+        }
+}

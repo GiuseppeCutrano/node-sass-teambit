@@ -1,0 +1,44 @@
+@use 'variables';
+
+#main_content{
+    background-color: variables.$primary_color;
+    text-align: center;
+  
+    .box_img{
+      @import 'partials/mixins';
+      @include flex_between;
+      flex-wrap: wrap;
+  
+      &:first-child {
+        border-bottom: 1px solid variables.$color_font_page;
+        margin-bottom: 120px;
+      }
+  
+      h3 {
+        width: 100%;
+        color:variables.$sec_color_font_page
+      }
+      p {
+        
+        color:variables.$sec_color_font_page
+      }
+      
+      .small_box {
+        @import 'partials/mixins';
+        @include small_box;
+  
+        img {
+         @import 'partials/mixins';
+          @include small_box_img;
+        }
+      }
+      .box_rabbit {
+        width: 100%;
+        padding: 130px 0;
+  
+        img {
+          width: 300px;
+        }
+      }
+    }
+  }
