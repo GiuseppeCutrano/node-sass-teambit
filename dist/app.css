@@ -34,6 +34,7 @@ header nav .list-menu li {
   margin-left: 30px;
   cursor: pointer;
   font-weight: bold;
+  color: #5d422f;
 }
 
 header nav .list-menu .btn-nav {
@@ -61,6 +62,7 @@ section {
 }
 
 .title h2 {
+  color: #5d422f;
   font-size: 45px;
   line-height: 1.5;
 }
