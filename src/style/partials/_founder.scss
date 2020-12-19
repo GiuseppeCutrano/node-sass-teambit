@@ -1,0 +1,52 @@
+@use 'variables';
+#founders {
+    background-color: variables.$secondary_color;
+  
+    .container {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .founders {
+      width: 50%;
+      margin: auto;
+      background-color: variables.$primary_color;
+      border: 1px solid variables.$btn_color;
+      border-radius: 10px;
+      text-align: left;
+      margin-top: 50px;
+      padding: 20px;
+      position: relative;
+  
+      i {
+        position: absolute;
+        top: -30px;
+        left: -10px;
+        font-size: 45px;
+        color: variables.$btn_color;
+      }
+  
+      p {
+        padding: 0;
+      }
+  
+      .founders_profiles {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+  
+  
+        img {
+          width: 50px;
+          margin-right: 20px;
+          vertical-align: middle;
+        }
+  
+        span {
+          &:first-child {
+            color: variables.$btn_color;
+          }
+        }
+      }
+    }
+  }

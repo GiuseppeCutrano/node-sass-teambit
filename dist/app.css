@@ -38,16 +38,16 @@ header nav .list-menu li {
 }
 
 header nav .list-menu .btn-nav {
-  border: 1px solid #1a4892;
+  border: 1px solid #3E14E9;
   border-radius: 5px;
   padding: 10px;
   font-size: 14px;
   font-size: 14px;
-  color: #1a4892;
+  color: #3E14E9;
 }
 
 header nav .list-menu .btn-nav:hover {
-  background-color: #1a4892;
+  background-color: #3E14E9;
   color: white;
 }
 
@@ -83,7 +83,7 @@ section {
 }
 
 .title a:hover {
-  color: #1a4892;
+  color: #3E14E9;
   text-decoration: underline;
 }
 
@@ -92,18 +92,18 @@ section {
 }
 
 .title .btn {
-  border: 1px solid #1a4892;
+  border: 1px solid #3E14E9;
   border-radius: 5px;
   padding: 10px;
   font-size: 14px;
   font-size: 14px;
-  background-color: #1a4892;
+  background-color: #3E14E9;
   color: white;
 }
 
 .title .btn:hover {
   background-color: white;
-  color: #1a4892;
+  color: #3E14E9;
 }
 
 .title .btn img {
@@ -230,6 +230,101 @@ section {
 }
 
 #solutions .title img {
+  width: 100%;
+}
+
+#founders {
+  background-color: #7F14D4;
+}
+
+#founders .container {
+  width: 100%;
+  text-align: center;
+}
+
+#founders .founders {
   width: 50%;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #3E14E9;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 50px;
+  padding: 20px;
+  position: relative;
+}
+
+#founders .founders i {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  font-size: 45px;
+  color: #3E14E9;
+}
+
+#founders .founders p {
+  padding: 0;
+}
+
+#founders .founders .founders_profiles {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#founders .founders .founders_profiles img {
+  width: 50px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+#founders .founders .founders_profiles span:first-child {
+  color: #3E14E9;
+}
+
+footer {
+  background-color: white;
+  padding: 70px 0;
+}
+
+footer .container {
+  display: flex;
+}
+
+footer .col {
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+footer .col:first-child {
+  display: flex;
+  padding-right: 40px;
+  color: #0414B3;
+}
+
+footer .col:first-child img {
+  width: 100px;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+footer .col p span {
+  color: #3E14E9;
+}
+
+footer .col ul {
+  list-style: none;
+  margin-left: 30px;
+}
+
+footer .col ul li {
+  font-size: 14px;
+  color: #7F14D4;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+footer .col ul li:hover {
+  color: #3E14E9;
 }
 

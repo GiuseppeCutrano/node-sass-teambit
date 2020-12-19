@@ -1,0 +1,51 @@
+@use 'variables';
+footer {
+    background-color: variables.$primary_color;
+    padding: variables.$padding_section;
+  
+    .container {
+      display: flex;
+    }
+  
+    .col{
+      font-weight: bold;
+      padding-right: 30px;
+  
+      &:first-child {
+        display: flex;
+        padding-right: 40px;
+        color:variables.$color_font_page;
+  
+        img {
+          width: 100px;
+          margin-right: 20px;
+          align-self: flex-start;
+        }
+      }
+  
+  
+      p {
+        span {
+          color: variables.$btn_color;
+        }
+      }
+      ul{
+          list-style: none;
+          margin-left: 30px;
+          li {
+            font-size: variables.$font_size_small;
+            color:variables.$secondary_color;
+            margin-bottom: 20px;
+            cursor: pointer;
+            
+      
+            &:hover {
+              color: variables.$btn_color;
+            }
+          }
+      }
+  
+      
+    }
+  
+}
